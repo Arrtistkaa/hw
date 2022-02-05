@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Grid</title>
+<link rel="stylesheet" href="file:///C:/Users/%D0%90%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F/Desktop/project1/style/my.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item grid-item1">1</div>
+    <div class="grid-item grid-item2">2</div>
+    <div class="grid-item grid-item3">3</div>
+    <div class="grid-item grid-item4">4</div>
+    <div class="grid-item grid-item5">5</div>
+    <div class="grid-item grid-item5">6</div>
+    <div class="grid-item grid-item5">7</div>
+    <div class="grid-item grid-item5">8</div>
+    <div class="grid-item grid-item5">9</div>
+    <div class="grid-item grid-item5">10</div>
+    <div class="grid-item grid-item5">11</div>
+    <div class="grid-item grid-item5">12</div>
+  </div>
+</body>
