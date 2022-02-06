@@ -1,2 +1,17 @@
-# Hi!
 Hello World
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Перед скриптом...</p>
+
+  <script>
+    alert( 'Привет, мир!' );
+  </script>
+
+  <p>...После скрипта.</p>
+
+</body>
+
+</html>
