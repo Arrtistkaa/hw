@@ -3,12 +3,12 @@ Hello World
 <html>
 
 <body>
-
+  <h1>вот так заголовок!</h1>
   <p>Перед скриптом...</p>
 
-  <script>
+  <p><script>
     alert( 'Привет, мир!' );
-  </script>
+    </script> скрипты</p>
 
   <p>...После скрипта.</p>
 
