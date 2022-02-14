@@ -21,6 +21,7 @@
   <p><cite>Крик</cite> Эдвард Мунк. Написана в 1893.</p>
   <!-- Это комментарий -->
   <h2 style="color:blue;">Это заголовок синий</h2>
+  <img src="pic_mountain.jpg" alt="Вид на горы" style="width:304px;height:228px;">
 </body>
 
 </html>
