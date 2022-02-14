@@ -1,23 +1,26 @@
-Hello World
+
 <!DOCTYPE HTML>
 <html>
 
 <body>
   <h1>вот так заголовок!</h1>
   <hr>
-  <p>Перед скриптом...</p>
-
-  <p><script>
-  alert( 'Привет, мир!' );
-  </script> скрипты</p>
-
-  <p>...После скрипта.</p>
-  <img src=".jpg" width="200" height="300">
+  <p>Текст.</p>
+  <p>Изображение:</p>
+  <img src=".jpg" width="200" height="200">
   <hr>
   <p>normal</p>
   <p style="color:red;">red</p>
   <p style="color:blue;">blue</p>
-  <p style="font-size:50px;">big</p>
+  <p style="font-size:67px;">big</p>
+  <p style="text-align:center;">Параграф по центру.</p>
+  <p>Это <sub>подстрочный</sub> текст.</p>
+  <p>Это <sup>надстрочный</sup> текст.</p>
+  <p>Мой любимый цвет <del>синий</del> <ins>красный</ins>.</p>
+  <img src=".jpg" width="220" height="277" alt="The Scream">
+  <p><cite>Крик</cite> Эдвард Мунк. Написана в 1893.</p>
+  <!-- Это комментарий -->
+  <h2 style="color:blue;">Это заголовок синий</h2>
 </body>
 
 </html>
