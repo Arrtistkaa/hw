@@ -22,6 +22,13 @@
   <!-- Это комментарий -->
   <h2 style="color:blue;">Это заголовок синий</h2>
   <img src="pic_mountain.jpg" alt="Вид на горы" style="width:304px;height:228px;">
+  
+  <title>JavaScript в script | Редактор HTML | schoolsw3.com</title>
+  <script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Привет JavaScript!";
+  }
+  </script>
 </body>
 
 </html>
