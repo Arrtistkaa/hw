@@ -38,6 +38,13 @@
   <input type="email" id="email" name="email" autocomplete="off"><br><br>
   <input type="submit" value="Отправить">
 </form>
+  <h2>Форма с вводом кнопки radio</h2>
+
+<form>
+  <input type="radio" name="gender" value="male" checked> Мужчина<br>
+  <input type="radio" name="gender" value="female"> Женщина<br>
+  <input type="radio" name="gender" value="other"> другое
+</form> 
 </body>
 
 </html>
