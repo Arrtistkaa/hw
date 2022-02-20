@@ -44,6 +44,11 @@
   <input type="radio" name="gender" value="male" checked> Мужчина<br>
   <input type="radio" name="gender" value="female"> Женщина<br>
   <input type="radio" name="gender" value="other"> другое
+  <form>
+  <label for="birthday">День рождения:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+
 </form> 
 </body>
 
