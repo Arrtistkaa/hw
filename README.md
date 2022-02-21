@@ -48,8 +48,15 @@
   <label for="birthday">День рождения:</label>
   <input type="date" id="birthday" name="birthday">
 </form>
-
-</form> 
+<form action="/action_page.php">
+  Веб Страница: <input type="url" list="url_list" name="link">
+  <datalist id="url_list">
+    <option label="SchoolsW3" value="https://schoolsw3.com">
+    <option label="Google" value="http://www.google.com">
+    <option label="Microsoft" value="http://www.microsoft.com">
+  </datalist>
+  <input type="submit">
+</form>
 </body>
 
 </html>
