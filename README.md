@@ -3,6 +3,11 @@
 <html>
 
 <body>
+  <svg width="100" height="100">
+  <circle cx="50" cy="50" r="40"
+  stroke="green" stroke-width="4" fill="yellow" />
+Извините, Ваш браузер не поддерживает встроенный SVG.
+</svg>
   <h1>вот так заголовок!</h1>
   <hr>
   <p>Текст.</p>
