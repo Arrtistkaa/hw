@@ -44,7 +44,11 @@
   <input type="submit" value="Отправить">
 </form>
   <h2>Форма с вводом кнопки radio</h2>
-
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Ваш браузер не поддерживает HTML5 видео.
+</video>
 <form>
   <input type="radio" name="gender" value="male" checked> Мужчина<br>
   <input type="radio" name="gender" value="female"> Женщина<br>
