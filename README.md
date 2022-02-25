@@ -3,6 +3,30 @@
 <html>
 
 <body>
+  
+<h1>HTML Получить координаты геолокации</h1>
+
+<button onclick="getLocation()">Попробовать</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Браузер не поддерживает геолокацию.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Широта: " + position.coords.latitude + 
+    "<br>Долгота: " + position.coords.longitude;
+}
+</script>
+  <hr>
   <svg width="100" height="100">
   <circle cx="50" cy="50" r="40"
   stroke="green" stroke-width="4" fill="yellow" />
