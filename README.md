@@ -3,8 +3,14 @@
 <html>
 
 <body>
+  <h1>HTML Поле ввода с интервалом</h1>
+
+<form>
+  <label for="points">Точки:</label>
+  <input type="number" id="points" name="points" step="3">
+</form>
   
-<h1>HTML Получить координаты геолокации</h1>
+<h5>HTML Получить координаты геолокации</h5>
 
 <button onclick="getLocation()">Попробовать</button>
 
